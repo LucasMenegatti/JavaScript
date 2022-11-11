@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <style>
+        .blink_me {
+            animation: blinker 1s linear infinite;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'VT323', monospace;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+<pre>
+          _
+        (( )_,     ,
+ .--.    \ '/     /.\
+(    )   / \=    /O o\    _          
+     / _/       /'o O| ,_( ))___     (
+     `-|   )_  /o_O_'_( \'    _ `\    ) 
+       `""""`            =`---___/---'
+</pre>
+    <p> Bem-Vindo ao Cheesy Terminal :)</p>
+    </div>
+
+    <div id="tela"></div>
+
+    $><div id="term" style="display: inline;"></div>
+    <span class="blink_me" style="background-color:white;height:1rem;width:.5rem">|</span>
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
